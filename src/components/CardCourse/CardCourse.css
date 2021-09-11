@@ -1,0 +1,72 @@
+.cardContainer{
+    display: inline-block;
+    width: 22rem;
+    margin-bottom: 3rem;
+    box-shadow: 5px 12px 10px #999;
+    padding-bottom: 2rem;
+    border-radius: 20px;
+    cursor: pointer;
+    transform: scale(0.88);
+    transition: all ease 0.4s;
+}
+  
+.cardContainer:hover{
+    transform: scale(0.95);
+}
+
+.cardContainer--img{
+    width: 22rem;
+    position: relative;
+}
+
+.cardContainer--img p{
+    background-color: #fb3f6c;
+    display: inline-block;
+    padding: .5rem;
+    color: #fff;
+    font-weight: 600;
+    position: absolute;
+    top: 10rem;
+    left: 0rem;
+    z-index: 1;
+}
+
+.cardContainer--img img{
+    width: 100%;
+}
+
+.cardContainer--body{
+    margin-top: 1.5rem;
+    padding-left: 1.5rem;
+}
+
+
+
+.cardContainer--body .cardContainer--body--columns{
+    margin-top: 1.7rem;
+    display: grid;
+    grid-template-columns: repeat(2,50%);
+    margin-bottom: .7rem;
+}
+
+.cardContainer--body h3{
+    width: 70%;
+    justify-content: flex-end;
+    font-size: 1.3rem;
+    margin-bottom: .7rem;
+}
+
+.cardContainer--body p{
+    width: 70%;
+}
+
+.cardContainer--body span{
+    font-weight: 600;
+}
+
+@media screen and (max-width: 350px){
+    .cardContainer{
+        display: block;
+        width: 100%;
+    }
+}

@@ -1,0 +1,50 @@
+.footer-container{
+    width: 100%;
+    background-color: #000;
+    height: 65vh;
+    padding: 0 7%;
+    padding-top: 2rem;
+    align-content: center;
+    overflow: hidden;
+}
+  
+.footer-container img{
+    width: 10rem;
+    margin-bottom: 2rem;
+}
+
+.footer-container .footer-container--information{
+    display: flex;
+    flex-direction: row;
+    color: #fff;
+}
+
+.footer-container .footer-container--information h3{
+    margin-bottom: 1rem;
+    margin-top: -2rem;
+}
+
+.footer-container .footer-container--information ul{
+    margin-right: 10rem;
+    margin-bottom: 3rem;
+}
+
+
+.footer-container .footer-container--information li{
+    margin-bottom: 1.2rem;
+}
+
+.footer-container .footer-container--information li a{
+    color: #fff;
+    font-size: 1.2rem;
+}
+
+.footer-container .footer-container--information .redes .icon{
+    font-size: 2rem;
+    margin-right: 2rem;
+    cursor: pointer;
+}
+
+.footer-container .footer-container--information .redes li{
+    display: inline-block;
+}

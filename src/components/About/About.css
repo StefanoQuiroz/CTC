@@ -1,0 +1,68 @@
+.container{
+    width: 100%;
+    background: linear-gradient(
+        180deg,#aafff7 11.17%,#a8faf7 14.07%,#99cef3 
+        41.27%,#8eaef1 65.62%,#879af0 86.03%,#8593ef 99.98%
+    );
+    display: flex;
+    padding: 5.5% 7%;
+    justify-content: space-between;
+    overflow: hidden;
+}
+
+.container .container--left h1{
+    height: 40%;
+    font-size: 3.2rem;
+    text-align: left;
+    margin-bottom: 4rem;
+}
+
+.container .container--left p{
+    height: 20%;
+    font-size: 1.6rem;
+    font-weight: 500;
+    color: white;
+}
+
+.container .container--left button{
+    height: 4.8rem;
+    width: 14rem;
+    font-size: 1.5rem;
+    font-weight: 600;
+    border-radius: 30px;
+    outline: none;
+    border: none;
+    color: white;
+    background-color: #000;
+    cursor: pointer;
+}
+
+.container .container--left button:hover{
+    background-color: #6552ff;
+    transform: translateY(-3px);
+}
+
+.container .container--right{
+    padding: 1.5rem;
+}
+
+.container .container--right img{
+    border-radius: 50%;
+    width: 40rem;
+    height: 36rem;
+}
+
+
+@media screen and (max-width: 500px){
+    .container .container--right{
+        display: none;
+    }
+
+    .container .container--left h1{
+        margin-bottom: 4rem;
+    }
+
+    .container .container--left  p{
+        margin-bottom: 3rem;
+    }
+}

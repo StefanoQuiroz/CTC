@@ -1,0 +1,40 @@
+.coursesContainer--header{
+    text-align: center;
+    padding: 5rem;
+    margin-top: -2rem;
+    margin-bottom: .5rem;
+}
+
+.coursesContainer--header h2{
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+}
+
+.coursesContainer--header p{
+    width: 21.8rem;
+    height: 3rem;
+    float: right;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 1.1rem;
+}
+
+.coursesContainer--header .coursesContainer--header--searchBar input{
+    margin-top: 2rem;
+    padding: .7rem 1.2rem;
+    border-radius: 10px;
+}
+
+.coursesContainer .coursesContainer--courseList{
+    display: grid;
+    justify-items: center;
+    align-content: space-around;
+    grid-template-columns: repeat(3,1fr);
+    padding: 0 2%;
+}
+
+@media screen and (max-width: 500px){
+
+
+}
