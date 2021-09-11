@@ -28,7 +28,7 @@ export default function Courses() {
         <div className = "coursesContainer--courseList">
         {
         data && data.filter((val) => {
-            if(val.name.includes(busqueda) || val.duration.includes(busqueda)){
+            if(val.name.includes(busqueda) || val.name.toLowerCase().includes(busqueda) || val.duration.includes(busqueda)){
                 return val;
             }
         }).map((item,index)=>(

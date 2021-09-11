@@ -59,7 +59,7 @@
     background-color: #6552ff;
 }
 
-@media screen and (max-width: 375px){
+@media screen and (max-width: 500px){
     .navbar .navbar--image{
         display: none;
     }
@@ -78,6 +78,7 @@
     .navbar li:nth-child(1){
         border-top: 1px solid #000;
         margin-top: 3.125rem;
+        width: 10rem;
     }
 
     .navbar li{

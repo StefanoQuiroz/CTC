@@ -23,6 +23,32 @@
     top: 0.2rem;
 }
 
+
+.coursesContainer--header--searchBar input{
+    background-color: rgb(233, 233, 233);
+    outline: none;
+    border: none;
+    height: 3.5rem;
+    padding: 0 3.5rem;
+    width: 20rem;
+    margin-left: -2.7rem;
+    transform: scale(0.88);
+    transition: all ease 0.4s; 
+}
+
+.coursesContainer--header--searchBar input:hover{
+    transform: scale(0.91);
+    box-shadow: 2px 6px 5px #999;
+}
+
+.coursesContainer--header--searchBar .coursesContainer--header--icon{
+    font-size: 1.5rem;
+    justify-content: left;
+    margin-left: -5rem;
+
+}
+
+
 .coursesContainer--courseList{
     width: 100vw;
     display: grid;

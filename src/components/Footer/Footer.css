@@ -1,7 +1,6 @@
 .footer-container{
     width: 100%;
     background-color: #000;
-    height: 65vh;
     padding: 0 7%;
     padding-top: 2rem;
     align-content: center;
@@ -47,4 +46,14 @@
 
 .footer-container .footer-container--information .redes li{
     display: inline-block;
+}
+
+@media screen and (max-width: 850px){
+    .footer-container .footer-container--information{
+        flex-direction: column;
+    }
+    .footer-container .footer-container--information p{
+        margin-bottom: 3rem;
+        text-align: center;
+    }
 }

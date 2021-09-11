@@ -31,7 +31,7 @@ export default function NavBar() {
         <img src={Logo} alt="logo"/>
       </div>
       {
-        (toggleMenu || screenWidth > 375) && (
+        (toggleMenu || screenWidth > 500) && (
           <ul className = "navbar-items">
             <li><a href="#footer">Nosotros</a></li>
             <li><a href="#cursos">Cursos</a></li>
