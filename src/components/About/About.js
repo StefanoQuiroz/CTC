@@ -8,7 +8,7 @@ export default function About() {
         <div className ="container--left">
             <h1>Cursos de programación online para niños, niñas y adolescentes</h1>
             <p>¡Haz que se conviertan en creadores de tecnología! Enseñamos el lenguaje del futuro mientras aprenden, juegan y se divierten.</p>
-            <a href="#cursos"><button>Ver cursos</button></a>
+            <button><a href="#cursos"Ver>Cursos</a></button>
         </div>
         <div className ="container--right">
           <img src={kidsImage} alt="kids"/>

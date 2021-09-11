@@ -10,21 +10,27 @@
     overflow: hidden;
 }
 
+.container--left{
+    width: 100%;
+}
+
 .container .container--left h1{
-    height: 40%;
+    width: 100%;
     font-size: 3.2rem;
+    display: flex;
     text-align: left;
-    margin-bottom: 4rem;
+    margin-bottom: 3rem;
 }
 
 .container .container--left p{
-    height: 20%;
+    display: flex;
     font-size: 1.6rem;
     font-weight: 500;
     color: white;
 }
 
 .container .container--left button{
+    display: flex;
     height: 4.8rem;
     width: 14rem;
     font-size: 1.5rem;
@@ -35,6 +41,13 @@
     color: white;
     background-color: #000;
     cursor: pointer;
+    margin-top: 1.5rem;
+    align-items: center;
+    justify-content: center;
+}
+
+.container--left button a{
+    color: #fff;
 }
 
 .container .container--left button:hover{
@@ -42,18 +55,23 @@
     transform: translateY(-3px);
 }
 
-.container .container--right{
-    padding: 1.5rem;
+.container--right{
+    width: 100%;
 }
 
-.container .container--right img{
+.container--right{
+    padding: 0 1.5rem;
+    display: flex;
+    align-items: center;
+}
+
+.container--right img{
     border-radius: 50%;
-    width: 40rem;
-    height: 36rem;
+    width: 100%;
 }
 
 
-@media screen and (max-width: 500px){
+@media screen and (max-width: 375px){
     .container .container--right{
         display: none;
     }

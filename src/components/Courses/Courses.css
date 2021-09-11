@@ -10,20 +10,17 @@
     margin-bottom: 1rem;
 }
 
-.coursesContainer--header p{
-    width: 21.8rem;
-    height: 3rem;
-    float: right;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-right: 1.1rem;
-}
 
-.coursesContainer--header .coursesContainer--header--searchBar input{
+.coursesContainer--header--input{
     margin-top: 2rem;
     padding: .7rem 1.2rem;
     border-radius: 10px;
+}
+
+.coursesContainer--header--icon{
+    position: relative;
+    right: 13rem;
+    top: 0.2rem;
 }
 
 .coursesContainer .coursesContainer--courseList{
@@ -34,7 +31,7 @@
     padding: 0 2%;
 }
 
-@media screen and (max-width: 500px){
+/* @media screen and (max-width: 375px){
 
 
-}
+} */

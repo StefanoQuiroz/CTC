@@ -10,18 +10,18 @@ export default function Footer() {
       <img src={darkLogo} alt="darkLogo"/>
       <div className="footer-container--information">
         <ul>
-          <li><a href="#">Nosotros</a></li>
-          <li><a href="#">Beneficios</a></li>
-          <li><a href="#">Contacto</a></li>
-          <li><a href="#">Block</a></li>
+          <li><a href="#A">Nosotros</a></li>
+          <li><a href="#A">Beneficios</a></li>
+          <li><a href="#A">Contacto</a></li>
+          <li><a href="#A">Block</a></li>
         </ul>
         
         <ul>
           <h3>CURSOS POPULARES</h3>
-          <li><a href="#">Programacion en Python</a></li>
-          <li><a href="#">Desarrollo de Videojuegos</a></li>
-          <li><a href="#">Edicion de videos</a></li>
-          <li><a href="#">Aprender con Minecraft</a></li>
+          <li><a href="#A">Programacion en Python</a></li>
+          <li><a href="#A">Desarrollo de Videojuegos</a></li>
+          <li><a href="#A">Edicion de videos</a></li>
+          <li><a href="#A">Aprender con Minecraft</a></li>
         </ul>
 
         <ul className="redes">
