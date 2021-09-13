@@ -34,7 +34,8 @@ export default function Courses() {
         }).map((item,index)=>(
             <CardCourse 
                 key={index} 
-                image={course} 
+                /* image={item.thumbnail}  */
+                image={course}
                 range={item.age_range} 
                 title={item.name}
                 slug={item.slug}
