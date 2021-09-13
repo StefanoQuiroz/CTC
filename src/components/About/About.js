@@ -6,8 +6,8 @@ export default function About() {
   return (
     <div className = "container">
         <div className ="container--left">
-            <h1>Cursos de programación online para niños, niñas y adolescentes</h1>
-            <p>¡Haz que se conviertan en creadores de tecnología! Enseñamos el lenguaje del futuro mientras aprenden, juegan y se divierten.</p>
+            <h1>Cursos de programação on-line para crianças e adolescentes</h1>
+            <p>Deixe-os se tornarem criadores de tecnologia! Nós ensinamos a linguagem do futuro enquanto eles aprendem, brincam e se divertem.</p>
             <button><a href="#cursos"Ver>Cursos</a></button>
         </div>
         <div className ="container--right">

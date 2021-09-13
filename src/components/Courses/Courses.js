@@ -12,11 +12,11 @@ export default function Courses() {
     return (  
     <div className="coursesContainer" id="cursos">
         <div className="coursesContainer--header">
-        <h2>¡Conoce nuestros cursos!</h2>
+        <h2>Informe-se sobre nossos cursos!</h2>
         <div className="coursesContainer--header--searchBar">
             <input 
                 type="text" 
-                placeholder="Buscar..."
+                placeholder="Pesquisar..."
                 className= "coursesContainer--header--input"
                 name="busqueda"
                 value={busqueda}

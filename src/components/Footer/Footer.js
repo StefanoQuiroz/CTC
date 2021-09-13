@@ -10,29 +10,29 @@ export default function Footer() {
       <img src={darkLogo} alt="darkLogo"/>
       <div className="footer-container--information">
         <ul>
-          <li><a href="#A">Nosotros</a></li>
-          <li><a href="#A">Beneficios</a></li>
-          <li><a href="#A">Contacto</a></li>
-          <li><a href="#A">Block</a></li>
+          <li><a href="#A">Nós</a></li>
+          <li><a href="#A">Benefícios</a></li>
+          <li><a href="#A">Contato</a></li>
+          <li><a href="#A"></a>Blogue</li>
         </ul>
         
         <ul>
           <h3>CURSOS POPULARES</h3>
-          <li><a href="#A">Programacion en Python</a></li>
-          <li><a href="#A">Desarrollo de Videojuegos</a></li>
-          <li><a href="#A">Edicion de videos</a></li>
-          <li><a href="#A">Aprender con Minecraft</a></li>
+          <li><a href="#A">Programação Python</a></li>
+          <li><a href="#A">Desenvolvimento de videogames</a></li>
+          <li><a href="#A">Edição de vídeo</a></li>
+          <li><a href="#A">Aprendendo com o Minecraft</a></li>
         </ul>
 
         <ul className="redes">
-          <h3>Siguenos en redes</h3>
+          <h3>Siga-nos em redes</h3>
           <li><AiFillFacebook className="icon"/></li>
           <li><AiFillInstagram className="icon"/></li>
           <li><AiFillLinkedin className="icon"/></li>
           <li><IoLogoTiktok className="icon"/></li>
         </ul>
 
-        <p>©2021 Stefano Quiroz for Crack the Code. All Rights Reserved.</p>
+        <p>©2021 Stefano Quiroz para Crack the Code. Todos os direitos reservados.</p>
       </div>
     </div>
   )

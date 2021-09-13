@@ -6,17 +6,17 @@ export default function CardCourse({image,range,title,slug,duration,cost,date}) 
     <div className = "cardContainer">
         <div className ="cardContainer--img">
             <img src={image} alt={title}/>
-            <p>{range} años</p>
+            <p>{range} anos</p>
         </div>
         <div className ="cardContainer--body">
             <h3>{title}</h3>
             <p>{slug}</p>
             <div className ="cardContainer--body--columns">
-              <p>Duración: <span>{parseFloat(duration)} mes{duration>1?'es':''}</span></p>
-              <p>Costo: <span>${cost}</span></p>
+              <p>Duração: <span>{parseFloat(duration)} {duration>1?'meses':'mês'}</span></p>
+              <p>Custo: <span>${cost}</span></p>
             </div>
             {
-              date?<p>Proximo inicio: <span>{date}</span></p>:''
+              date?<p>Próximo início: <span>{date}</span></p>:''
             }
         </div>
    </div>

@@ -33,9 +33,9 @@ export default function NavBar() {
       {
         (toggleMenu || screenWidth > 500) && (
           <ul className = "navbar-items">
-            <li><a href="#footer">Nosotros</a></li>
+            <li><a href="#footer">Nós</a></li>
             <li><a href="#cursos">Cursos</a></li>
-            <li><a href="#footer">Contactanos</a></li>
+            <li><a href="#footer">Entre em contato conosco</a></li>
           </ul>
         )
       }
