@@ -8,7 +8,7 @@ Adicionalmente, este proyecto demo se encuentra en portugués Brasileño.
 
 <p align="center">
 
-<img src='https://github.com/StefanoQuiroz/CTC/tree/main/gif/ctc-demo.gif' width='700px'>
+<img src='https://github.com/StefanoQuiroz/CTC/blob/main/gif/ctc-demo.gif' width='700px'>
 
 </p>
 
