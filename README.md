@@ -12,6 +12,14 @@
 
 </p>
 
+# Mockup (Estructura del Diseño)
+
+<p align="center">
+
+<img src='https://github.com/StefanoQuiroz/CTC/blob/main/src/images/Estructura.png' width='700px'>
+
+</p>
+
 # Instrucciones
 
 ```sh
@@ -20,6 +28,7 @@
 3. npm i (para descargar todas las dependencias empleadas).
 4. npm run start (para ejecutar).
 ```
+
 
 # Link
 
