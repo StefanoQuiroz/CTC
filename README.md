@@ -4,6 +4,14 @@
 - Este proyecto demo, fue realizado siguiendo el diseño de "Crack The Code".
 - Adicionalmente, este proyecto demo se encuentra en portugués Brasileño. 
 
+# Mockup (Estructura del Diseño)
+
+<p align="center">
+
+<img src='https://github.com/StefanoQuiroz/CTC/blob/main/src/images/Estructura.png' width='700px'>
+
+</p>
+
 # Demo
 
 <p align="center">
@@ -12,13 +20,6 @@
 
 </p>
 
-# Mockup (Estructura del Diseño)
-
-<p align="center">
-
-<img src='https://github.com/StefanoQuiroz/CTC/blob/main/src/images/Estructura.png' width='700px'>
-
-</p>
 
 # Instrucciones
 
