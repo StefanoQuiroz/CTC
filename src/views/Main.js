@@ -28,8 +28,8 @@ useEffect(()=>{
   //Problemas con la ruta de heroku al desplegar, cree una version fake con la data solamente para el deployment.
   /* useEffect(()=>{
     setData(dataTemp);
-  }, [])
- */
+  }, []) */
+
   console.log(data);
 
   return (

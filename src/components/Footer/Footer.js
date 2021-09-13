@@ -26,10 +26,10 @@ export default function Footer() {
 
         <ul className="redes">
           <h3>Siga-nos em redes</h3>
-          <li><AiFillFacebook className="icon"/></li>
-          <li><AiFillInstagram className="icon"/></li>
-          <li><AiFillLinkedin className="icon"/></li>
-          <li><IoLogoTiktok className="icon"/></li>
+          <li><a href="https://www.facebook.com/crackthecode.la"><AiFillFacebook className="icon"/></a></li>
+          <li><a href="https://www.instagram.com/crackthecode.la/"><AiFillInstagram className="icon"/></a></li>
+          <li><a href="https://www.linkedin.com/company/crack-the-code-per%C3%BA/"><AiFillLinkedin className="icon"/></a></li>
+          <li><a href="https://www.tiktok.com/@crackthecodelatam?lang=es"><IoLogoTiktok className="icon"/></a></li>
         </ul>
 
         <p>©2021 Stefano Quiroz para Crack the Code. Todos os direitos reservados.</p>
