@@ -1,5 +1,5 @@
-# GET RESULTADOS
+### GET RESULTADOS
 GET https://ctc-backend-staging.herokuapp.com/api/courses/
 
-# GET RESULTADOS con acessor
+### GET RESULTADOS con acessor
 GET https://ctc-backend-staging.herokuapp.com/api/courses/
